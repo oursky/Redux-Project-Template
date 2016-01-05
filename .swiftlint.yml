@@ -1,0 +1,12 @@
+included: # paths to include during linting. `--path` is ignored if present.
+  - ${PROJECT_NAME}
+  - ${PROJECT_NAME}Tests
+
+disabled_rules: # rule identifiers to exclude from running
+  - force_cast
+  - valid_docs
+
+line_length: 80
+function_body_length:
+  - 80 # warning
+  - 120 # error

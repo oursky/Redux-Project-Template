@@ -1,0 +1,10 @@
+use_frameworks!
+
+target '${PROJECT_NAME}', :exclusive => true do
+  ${INCLUDED_PODS}
+end
+
+target '${PROJECT_NAME}Tests', :exclusive => true do
+  ${INCLUDED_PODS}
+end
+
