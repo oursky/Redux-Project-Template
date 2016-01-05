@@ -26,7 +26,7 @@ class Store: StoreType {
 
         */
         
-        return nil
+        return createStore(combineReducers([String: Reducer]()), initialState: AppState())
     }
     
 }
