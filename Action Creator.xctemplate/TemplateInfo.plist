@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>An Redux Action template.</string>
+	<key>Summary</key>
+	<string>An Redux Action template.</string>
+	<key>SortOrder</key>
+	<string>3</string>
+	<key>DefaultCompletionName</key>
+	<string>MyAction</string>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>ActionType</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Action Types Enum:</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>ActionCreatorsName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Action Creators Base Name</string>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+	</array>
+</dict>
+</plist>
