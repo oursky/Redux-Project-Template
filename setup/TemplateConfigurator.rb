@@ -97,7 +97,7 @@ module Pod
     end
 
     def clean_template_files
-      ["./**/.gitkeep", "configure", "_CONFIGURE.rb", "README.md", "LICENSE", "templates", "setup", "test.sh"].each do |asset|
+      ["./**/.gitkeep", "configure", "download", "_CONFIGURE.rb", "README.md", "LICENSE", "templates", "setup", "test.sh"].each do |asset|
         `rm -rf #{asset}`
       end
     end
