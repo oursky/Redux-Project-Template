@@ -16,3 +16,7 @@ What it does:
 ## Requirements:
 
 - XCode 7.2
+
+## Credits:
+
+Inspired from https://github.com/CocoaPods/pod-template
